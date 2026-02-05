@@ -55,7 +55,7 @@ func defaultClientOpts() *clientOpts {
 	if err != nil {
 		co.credentialsFilePath = ".gts-credentials"
 	} else {
-		co.credentialsFilePath = path.Join(configDir, "")
+		co.credentialsFilePath = path.Join(configDir, "gts", ".gts-credentials")
 	}
 
 	co.ctx = context.Background()
