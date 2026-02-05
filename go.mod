@@ -1,4 +1,4 @@
-module github.com/zjom/gts
+module github.com/zjom/tsync
 
 go 1.25.5
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/zjom/gts/pkg/google/oauth"
-	"github.com/zjom/gts/pkg/google/tasks"
+	"github.com/zjom/tsync/pkg/google/oauth"
+	"github.com/zjom/tsync/pkg/google/tasks"
 )
 
 func main() {
