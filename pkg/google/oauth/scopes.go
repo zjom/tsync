@@ -2,6 +2,6 @@ package oauth
 
 var scopes = []string{}
 
-func AddScope(s ...string) {
+func RegisterScope(s ...string) {
 	scopes = append(scopes, s...)
 }
