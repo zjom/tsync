@@ -9,12 +9,9 @@ import (
 	"github.com/zjom/gts/pkg/google/tasks"
 )
 
-var credentialsPath = "/Users/zihanjin/Downloads/client_secret_533269377192-4fm3bib0ea2ussf2k8cs30ts59r973ff.apps.googleusercontent.com.json"
-
 func main() {
 	ctx := context.Background()
 	client, err := oauth.GetClient(
-		oauth.WithCredentialsFilePath(credentialsPath),
 		oauth.WithContext(ctx))
 	if err != nil {
 		panic(err)
