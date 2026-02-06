@@ -1,4 +1,4 @@
-package core
+package tasks
 
 type TaskList struct {
 	Id    string
